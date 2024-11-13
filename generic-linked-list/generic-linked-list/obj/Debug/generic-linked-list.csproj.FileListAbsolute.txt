@@ -1,0 +1,7 @@
+E:\CSharp_Repo\generic-linked-list\generic-linked-list\bin\Debug\generic-linked-list.exe.config
+E:\CSharp_Repo\generic-linked-list\generic-linked-list\bin\Debug\generic-linked-list.exe
+E:\CSharp_Repo\generic-linked-list\generic-linked-list\bin\Debug\generic-linked-list.pdb
+E:\CSharp_Repo\generic-linked-list\generic-linked-list\obj\Debug\generic-linked-list.csproj.AssemblyReference.cache
+E:\CSharp_Repo\generic-linked-list\generic-linked-list\obj\Debug\generic-linked-list.csproj.CoreCompileInputs.cache
+E:\CSharp_Repo\generic-linked-list\generic-linked-list\obj\Debug\generic-linked-list.exe
+E:\CSharp_Repo\generic-linked-list\generic-linked-list\obj\Debug\generic-linked-list.pdb
