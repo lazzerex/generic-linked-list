@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,6 +21,20 @@ namespace generic_linked_list
 
             Console.WriteLine("--------------");
         }
+
+        static void Swap(LinkedList<string> list, LinkedListNode<string> node1, LinkedListNode<string> node2)
+        {
+            if (node1 == null || node2 == null || node1 == node2)
+            {
+                return;
+            }
+
+            string tempValue = node1.Value;
+            node1.Value = node2.Value;
+            node2.Value = tempValue;
+        }
+        
+        
         static void Main(string[] args)
         {
             LinkedList<string> names = new LinkedList<string>();
@@ -72,6 +86,14 @@ namespace generic_linked_list
             Console.WriteLine("\nList contains 'Arc': " + names.Contains("Arc"));
 
             print_Reverse(names);
+
+            Console.WriteLine("------Swapping------");
+
+            Swap(names, node1, node3);  //gamma and decker
+            foreach (string name in names)
+            {
+                Console.WriteLine(name);
+            }
 
             Console.ReadLine();
 
